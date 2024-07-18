@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "bill_manager_rs"
+name = "bill_manager_rust"
 version = "0.1.0"
