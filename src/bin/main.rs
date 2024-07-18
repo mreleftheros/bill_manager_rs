@@ -1,5 +1,5 @@
 use std::io;
-use bill_manager::{menu::MenuOption, util::get_input, App};
+use bill_manager_rs::{menu::MenuOption, util::get_input, App};
 
 fn main() -> io::Result<()> {
     println!(" === Bill Manager ===");

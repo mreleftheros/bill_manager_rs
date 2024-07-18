@@ -58,8 +58,8 @@ impl App {
   pub fn total(&self) {
     let mut total = 0;
     
-    for _ in &self.bills {
-      total += 1;
+    for (_, v) in &self.bills {
+      total += v;
     }
 
     println!("Total: {total}");
